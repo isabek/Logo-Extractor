@@ -71,7 +71,7 @@ http://ground-truth-data.s3-website-us-east-1.amazonaws.com/autoglassforyou.com,
 
 Crawler writes results to json file. Example: ```result.json```. 
 
-If you want to check how accuracy of extracted logos run next command
+If you want to check accuracy of extracted logos run next command
 
 ```
 python checker.py -actual logo-extraction.txt -json result.json
