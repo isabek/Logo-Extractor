@@ -20,6 +20,9 @@ cd ~/projects/Logo-Extractor
 ```
 virtualenv -p python3 venv
 ```
+```
+source venv/bin/activate
+```
 
 ### Install Dependencies
 
