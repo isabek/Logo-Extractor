@@ -82,7 +82,7 @@ class Extractor(object):
     @staticmethod
     def _extract_with_xpath_rules(response):
         for rule in xpath_rules():
-            result = response.xpath(rule.xpath).extract_first()
+            result = response.xpath(rule.xpath).extract()
             if result:
                 return result[0]
         return None
